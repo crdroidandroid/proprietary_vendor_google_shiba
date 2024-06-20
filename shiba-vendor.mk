@@ -75,6 +75,7 @@ PRODUCT_PACKAGES += \
     libpixelimsmedia \
     vendor.google.whitechapel.audio.audioext@4.0 \
     vendor.google.whitechapel.audio.extension-V2-ndk \
+    libpowerstatshaldataprovider \
     VZWAPNLib \
     AICorePrebuilt \
     AppDirectedSMSService \
@@ -93,6 +94,7 @@ PRODUCT_PACKAGES += \
     OemDmTrigger \
     PixelCameraServices \
     TetheringEntitlement \
+    TurboPrebuilt \
     WfcActivation \
     OemRilHookService \
     CarrierSetup \
@@ -108,6 +110,7 @@ PRODUCT_PACKAGES += \
     RilConfigService \
     ShannonIms \
     ShannonRcs \
+    TurboAdapter \
     grilservice \
     ril-extension \
     libhwinfo \
@@ -123,7 +126,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink64 \
     libdmjavaplugin_libdmjavaplugin_symlink64 \
-    libpixeldisplaymanager_jni_libpixeldisplaymanager_jni_symlink64
+    libpixeldisplaymanager_jni_libpixeldisplaymanager_jni_symlink64 \
+    libpowerstatshaldataprovider_libpowerstatshaldataprovider_symlink64
 PRODUCT_COPY_FILES += \
     vendor/google/shiba/proprietary/product/etc/CarrierSettings/1and1_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/1and1_de.pb \
     vendor/google/shiba/proprietary/product/etc/CarrierSettings/2degrees_nz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/2degrees_nz.pb \
